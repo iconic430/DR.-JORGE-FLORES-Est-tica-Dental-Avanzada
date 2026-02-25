@@ -1,0 +1,7 @@
+{
+  "name": "Dr. Jorge Flores - Estética Dental",
+  "description": "Landing page profesional para el Dr. Jorge Flores, especialista en carillas de porcelana y estética dental en Guadalajara.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
