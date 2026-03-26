@@ -173,7 +173,7 @@ export default function App() {
                     <p className="text-[8px] uppercase tracking-widest font-bold text-ink/40">Ética</p>
                   </div>
                   <div>
-                    <p className="text-xl md:text-2xl font-serif text-gold font-bold">2024</p>
+                    <p className="text-xl md:text-2xl font-serif text-gold font-bold">2026</p>
                     <p className="text-[8px] uppercase tracking-widest font-bold text-ink/40">Tecnología</p>
                   </div>
                 </div>
@@ -193,16 +193,7 @@ export default function App() {
               </div>
             </motion.div>
 
-            {/* Moved Form Section */}
-            <div id="formulario" className="flex flex-col gap-8 mt-12 w-full">
-              <h3 className="text-2xl md:text-3xl font-serif text-center text-gold">Agenda una sesión de valoración gratuita</h3>
-              <div className="bg-gold/5 p-10 rounded-[3rem] border border-gold/10 flex items-center justify-center min-h-[300px]">
-                <div className="border-2 border-dashed border-gold/20 rounded-2xl p-12 text-center">
-                  <span className="text-2xl font-serif text-gold/40 uppercase tracking-widest">Formulario</span>
-                </div>
-              </div>
-            </div>
-          </motion.div>
+            </motion.div>
         </div>
       </section>
 
@@ -277,6 +268,20 @@ export default function App() {
 
 
 
+      {/* Form Section */}
+      <section id="formulario" className="py-24 bg-paper">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="flex flex-col gap-8 w-full">
+            <h3 className="text-3xl md:text-5xl font-serif text-center text-gold mb-4">Agenda una sesión de valoración gratuita</h3>
+            <div className="bg-gold/5 p-10 rounded-[3rem] border border-gold/10 flex items-center justify-center min-h-[400px]">
+              <div className="border-2 border-dashed border-gold/20 rounded-2xl p-12 text-center w-full max-w-md">
+                <span className="text-2xl font-serif text-gold/40 uppercase tracking-widest">Formulario de Contacto</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact & Location Section */}
       <section id="contacto" className="py-32 bg-ink text-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -348,7 +353,7 @@ export default function App() {
 
 
           <p className="text-[10px] uppercase tracking-widest font-bold text-ink/40">
-            © 2024 Dr. Jorge Flores. Todos los derechos reservados.
+            © 2026 Dr. Jorge Flores. Todos los derechos reservados.
           </p>
         </div>
       </footer>
