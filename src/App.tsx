@@ -272,11 +272,25 @@ export default function App() {
       <section id="formulario" className="py-24 bg-paper">
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex flex-col gap-8 w-full">
-            <h3 className="text-3xl md:text-5xl font-serif text-center text-gold mb-4">Agenda una sesión de valoración gratuita</h3>
-            <div className="bg-gold/5 p-10 rounded-[3rem] border border-gold/10 flex items-center justify-center min-h-[400px]">
-              <div className="border-2 border-dashed border-gold/20 rounded-2xl p-12 text-center w-full max-w-md">
-                <span className="text-2xl font-serif text-gold/40 uppercase tracking-widest">Formulario de Contacto</span>
-              </div>
+            <h3 className="text-3xl md:text-5xl font-serif text-center text-gold mb-4 text-balance">Agenda una sesión de valoración gratuita</h3>
+            <div className="bg-gold/5 p-4 md:p-10 rounded-[3rem] border border-gold/10 overflow-hidden min-h-[758px]">
+              <iframe
+                src="https://api.leadconnectorhq.com/widget/form/CsKJR0HLUcXRbyRYfdrL"
+                style={{ width: '100%', height: '758px', border: 'none', borderRadius: '3px' }}
+                id="inline-CsKJR0HLUcXRbyRYfdrL" 
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="Form 0"
+                data-height="758"
+                data-layout-iframe-id="inline-CsKJR0HLUcXRbyRYfdrL"
+                data-form-id="CsKJR0HLUcXRbyRYfdrL"
+                title="Form 0"
+              ></iframe>
             </div>
           </div>
         </div>
