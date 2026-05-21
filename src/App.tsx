@@ -410,7 +410,7 @@ export default function App() {
                   <div className="h-px bg-ink/5 w-full my-5" />
                   
                   <ul className="grid grid-cols-1 xs:grid-cols-2 gap-3 mb-8">
-                    {["Materiales de importación", "Diseño personalizado", "Mínima invasión", "Garantía de satisfacción"].map((item, i) => (
+                    {["Materiales de alta calidad", "Diseño digital", "Diseño personalizado", "Mínima invasión", "Garantía de satisfacción"].map((item, i) => (
                       <li key={i} className="flex items-center gap-2 text-xs text-ink/80 font-medium">
                         <CheckCircle2 size={14} className="text-gold shrink-0" />
                         <span>{item}</span>
@@ -518,9 +518,9 @@ export default function App() {
         <div className="w-full max-w-4xl mx-auto px-4 xs:px-6">
           <div className="flex flex-col items-center">
             
-            <span className="text-[10px] uppercase tracking-[0.2em] text-gold font-bold block mb-2">Sesión de cortesía</span>
+            <span className="text-[10px] uppercase tracking-[0.2em] text-gold font-bold block mb-2">Sesión de valoración</span>
             <h3 className="text-xl xs:text-2xl sm:text-3xl font-serif text-center text-ink mb-6 text-balance">
-              Agenda una sesión de <span className="italic text-gold">valoración gratuita</span>
+              Agenda tu <span className="italic text-gold">sesión de valoración</span>
             </h3>
 
             {/* Subtext highlighting response time */}
